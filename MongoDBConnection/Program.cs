@@ -11,7 +11,7 @@ namespace MongoDBConnection
             Console.WriteLine("Hello World!");
 
             var client = new MongoClient(
-                "mongodb+srv://davidfico22:davidfico22@cluster0.mrtwa.mongodb.net/test");
+                "mongodb+srv://<user>:<password>@cluster0.mrtwa.mongodb.net/test");
 
             var db = client.GetDatabase("sample_mflix");
 
